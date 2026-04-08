@@ -1,0 +1,17 @@
+{
+  "logistic_regression": {
+    "version": "20260407_064533",
+    "path": "/home/claude/fraud_platform/src/../models/logistic_regression_v20260407_064533.joblib",
+    "saved_at": "2026-04-07T06:45:33.497446"
+  },
+  "random_forest": {
+    "version": "20260407_064648",
+    "path": "/home/claude/fraud_platform/src/../models/random_forest_v20260407_064648.joblib",
+    "saved_at": "2026-04-07T06:46:48.378213"
+  },
+  "gradient_boosting": {
+    "version": "20260407_064728",
+    "path": "/home/claude/fraud_platform/src/../models/gradient_boosting_v20260407_064728.joblib",
+    "saved_at": "2026-04-07T06:47:28.783026"
+  }
+}

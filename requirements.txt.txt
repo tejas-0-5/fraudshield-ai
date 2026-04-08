@@ -1,0 +1,44 @@
+# Core Data Science
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.1.0
+
+# Gradient Boosting (XGBoost-equivalent via sklearn; install XGBoost separately if available)
+# xgboost>=1.7.0        # pip install xgboost
+# lightgbm>=3.3.5       # pip install lightgbm
+
+# Class Imbalance (custom SMOTE included; optionally use imbalanced-learn)
+# imbalanced-learn>=0.10.0  # pip install imbalanced-learn
+
+# Explainability (custom perturbation-based XAI included; optionally use SHAP)
+# shap>=0.41.0          # pip install shap
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+Pillow>=9.0.0
+
+# Model Persistence
+joblib>=1.2.0
+
+# Dashboard
+streamlit>=1.20.0       # pip install streamlit
+
+# API Backend
+fastapi>=0.95.0         # pip install fastapi
+uvicorn>=0.21.0         # pip install uvicorn
+pydantic>=1.10.0
+
+# Flask fallback (optional)
+# flask>=2.2.0
+
+# Utilities
+python-dateutil>=2.8.0
+tqdm>=4.64.0
+
+# Optional: Neural Network
+# tensorflow>=2.10.0    # pip install tensorflow
+# torch>=1.13.0         # pip install torch
+
+# Optional: Advanced hyperparameter tuning
+# optuna>=3.0.0         # pip install optuna

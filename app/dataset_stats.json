@@ -1,0 +1,19 @@
+{
+  "total_transactions": 284807,
+  "fraud_count": 492,
+  "legitimate_count": 284315,
+  "fraud_rate_pct": 0.1727,
+  "imbalance_ratio": 577.9,
+  "amount_stats": {
+    "count": 284807.0,
+    "mean": 88.34961700439453,
+    "std": 250.1201171875,
+    "min": 0.0,
+    "25%": 5.599999904632568,
+    "50%": 22.0,
+    "75%": 77.16500091552734,
+    "max": 25691.16015625
+  },
+  "time_range_hours": 48.0,
+  "memory_mb": 34.46
+}
