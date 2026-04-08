@@ -1,14 +1,27 @@
 # 🛡️ FraudShield AI — Enterprise Fraud Detection Platform
 
-🚀 Designed as a **production-ready fintech fraud detection system**, not just a machine learning model.
+🚀 **Live Demo:** https://fraudshield-ai-05.streamlit.app/
+
+💡 Designed as a **production-ready fintech fraud detection system**, not just a machine learning model.
 
 > An end-to-end AI-powered fraud detection platform with real-time prediction, explainable AI, and an interactive dashboard.
+
+---
+
+## 🎯 Why This Project Stands Out
+
+* 🔥 Real-time fraud detection system
+* 🧠 Explainable AI (Why is this fraud?)
+* ⚡ Live deployed dashboard
+* 🏗️ Complete ML pipeline (not just model)
+* 📊 Business-focused decision system
 
 ---
 
 ## 📋 Table of Contents
 
 * [Business Use Case](#business-use-case)
+* [Live Demo](#live-demo)
 * [Architecture](#architecture)
 * [Tech Stack](#tech-stack)
 * [Project Structure](#project-structure)
@@ -21,19 +34,31 @@
 
 ---
 
+## 🌐 Live Demo
+
+👉 **Try the app here:**
+🔗 https://fraudshield-ai-05.streamlit.app/
+
+---
+
 ## 💼 Business Use Case
 
-Credit card fraud costs the global financial industry **$32+ billion annually**. Traditional systems struggle with detecting modern fraud patterns and often generate false positives.
+Credit card fraud costs the global financial industry **$32+ billion annually**.
 
-**FraudShield AI solves this with:**
+Traditional systems fail due to:
 
-| Challenge                       | Solution                                 |
-| ------------------------------- | ---------------------------------------- |
-| Extreme class imbalance (577:1) | SMOTE, undersampling, class weights      |
-| Low interpretability            | Explainable AI (local + global insights) |
-| Batch-only detection            | Real-time fraud prediction system        |
-| Black-box decisions             | “Why is this fraud?” explanations        |
-| Static thresholds               | Dynamic threshold tuning                 |
+* ❌ High false positives
+* ❌ Poor interpretability
+* ❌ Static rule-based systems
+
+### ✅ FraudShield AI solves this:
+
+| Challenge               | Solution                        |
+| ----------------------- | ------------------------------- |
+| Extreme class imbalance | SMOTE + undersampling + weights |
+| Black-box models        | Explainable AI (local + global) |
+| Batch processing        | Real-time fraud detection       |
+| Static thresholds       | Dynamic threshold tuning        |
 
 ---
 
@@ -54,9 +79,9 @@ Real-Time Engine → API Layer → Dashboard UI
 | Data           | Pandas, NumPy       |
 | ML             | Scikit-learn        |
 | Visualization  | Matplotlib, Seaborn |
-| Explainability | Custom XAI          |
 | Backend        | FastAPI             |
 | Frontend       | Streamlit           |
+| Explainability | Custom XAI          |
 | Storage        | joblib              |
 
 ---
@@ -95,16 +120,15 @@ uvicorn app.api:app --port 8000
 
 ### 🔹 Data Ingestion
 
-* Chunk-based loading for large datasets
+* Chunk-based loading (large datasets)
 * Memory optimization
 * Schema validation
 
 ### 🔹 Feature Engineering
 
 * Normalization (Amount, Time)
-* Velocity features
-* Rolling averages
-* Anomaly indicators
+* Velocity & rolling features
+* Fraud pattern indicators
 
 ### 🔹 Modeling
 
@@ -179,22 +203,22 @@ uvicorn app.api:app --port 8000
 
 ## 💡 Key Highlights
 
-* Production-like system design
-* Real-time fraud detection
-* Explainable AI integration
-* Interactive dashboard
-* End-to-end ML pipeline
+* 🧠 End-to-end ML system
+* ⚡ Real-time fraud detection
+* 🔍 Explainable AI integration
+* 📊 Interactive dashboard
+* 🚀 Live deployed product
 
 ---
 
 ## 👨‍💻 Author
 
-Tejas Pathak
+**Tejas Pathak**
 B.Tech CSE | AWS Certified
 Aspiring Technical Project Manager
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a ⭐ on GitHub!
+If you like this project, consider giving it a ⭐ on GitHub!
